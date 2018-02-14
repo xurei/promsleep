@@ -4,6 +4,8 @@ This is a small handy piece of code that implements sleep as a promise.
 
 # Example 
 ```
+const promsleep = require('promsleep');
+
 Promise.resolve()
 .then(out => promsleep(1000/*ms*/, out)
 .then(out => {
